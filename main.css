@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* navbar start */
+
+.navbar-section .navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.navbar-section .navbar ul li:nth-child(2) {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Montserrat';
+}
+
+
+.navbar-section .navbar ul li:nth-child(3) {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Montserrat';
+}
+
+.navbar-section .navbar ul li:nth-child(4) {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Montserrat';
+}
+
+.navbar-section .navbar ul li:nth-child(5) {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.navbar-section .navbar ul li:nth-child(6) {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.navbar-section .navbar ul li:nth-child(7) {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.navbar-section .navbar ul li:nth-child(8) input {
+    width: 240px;
+    height: 40px;
+    background: #ECEFF1;
+    border: 0;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #797979;
+    padding-left: 8px;
+}
+
+
+/* navbar end */
+
+/* adidas-back start*/
+.adidas-back {
+    background: url(./images/adidas-back.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+}
+
+.adidas-back .big-adidas {
+    margin-top: 176px;
+    margin-left: 105px;
+}
+
+.adidas-back h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    margin-top: -210px;
+    margin-left: 65px;
+    color: #D63B2C;
+    mix-blend-mode: difference;
+}
+
+.adidas-back p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 12px;
+    margin-left: 65px;
+    color: #FFFFFF;
+}
+
+.adidas-back .belgi-1:hover {
+    color: yellow;
+}
+
+.adidas-back .belgi-2:hover {
+    color: yellow;
+}
+
+.adidas-back h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.adidas-back .see-more {
+    margin-left: 65px;
+    display: flex;
+    margin-top: 42px;
+}
+
+.adidas-back .buy-now {
+    margin-top: 64px;
+    margin-left: 65px;
+    display: flex;
+}
+
+.adidas-back .buy-now:hover {
+    color: yellow;
+}
+
+
+.adidas-back .see-more:hover {}
+
+
+.adidas-back .see-more h3 {
+    margin-left: 20px;
+    transition: 0.4s;
+}
+
+.adidas-back .buy-now h3 {
+    margin-left: 20px;
+    transition: 0.4s;
+}
+
+
+.adidas-back .submit-1:hover {
+    color: yellow;
+}
+
+.adidas-back .submit-2:hover {
+    color: yellow;
+}
+
+
+/* adidas-back end */
+
+/* adiweek start */
+.adiweek {
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 0;
+}
+
+.adiweek h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.adiweek .vectors .vec-left {
+    margin-right: 27px;
+}
+
+.carusel {
+    display: flex;
+    gap: 32px;
+}
+
+.carusel div {
+    width: 300px;
+    height: 300px;
+    background: url(./images/Sneaker.png);
+    background-color: #f3f3f3;
+    border-radius: 3px;
+}
+
+.carusel div img {
+    width: 26px;
+    height: 23px;
+    margin-top: 10px;
+    margin-left: 267px;
+}
+
+.carusel div h5 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 24px;
+    margin-top: 200px;
+}
+
+.carusel div p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 24px;
+    margin-top: 8px;
+}
+
+.snaek-x {
+    display: flex;
+    gap: 205px;
+    padding: 8px 0;
+    margin-bottom: 19px;
+}
+
+.snaek-x div {
+    margin-left: 30px;
+}
+
+.snaek-x div h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.snaek-x div p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+}
+
+
+
+/* adiweek end */
+
+
+/* outfits section start*/
+
+.outfits {
+    display: flex;
+    margin-bottom: ;
+}
+
+.outfits .outfits-right {
+    background: #231F20;
+    border-radius: 0px 100px 100px 0px;
+    width: 910px;
+}
+
+.outfits .outfits-right h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 75px;
+    margin-left: -245px;
+    font-family: sans-serif;
+}
+
+.outfits .outfits-right span {
+    color: #EDE734;
+    font-family: sans-serif;
+}
+
+.outfits .outfits-right p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 71px;
+    margin-top: 33px;
+    color: #fff;
+    font-family: sans-serif;
+    transition: 1s;
+}
+
+.outfits .outfits-right ul li {
+    justify-content: center;
+    align-items: center;
+}
+
+.outfits .outfits-right ul {
+    display: flex;
+    margin-left: 71px;
+    margin-top: 88px;
+}
+
+.outfits .outfits-right ul .para-right {
+    margin-top: -45px;
+    margin-left: 60px;
+}
+
+.outfits .outfits-right ul .list-right {
+    margin-left: 105px;
+}
+
+.outfits .outfits-right ul li p {
+    margin-top: -35px;
+}
+
+.outfits .outfits-right ul li p:hover {
+    color: #EDE734;
+}
+
+
+/* outfits end */
+
+
+/* history start */
+.history {
+    height: 600px;
+    background: linear-gradient(180deg, #F87C02 0%, #8D4600 100%);
+    background-repeat: no-repeat;
+    border: 1px solid red;
+}
+
+
+.history h1 {
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 117px;
+    color: #FFFFFF;
+    margin-left: 177px;
+}
+
+.history p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.history .parag-1,
+.parag-2 {
+    margin-left: 65px;
+    margin-top: 25px;
+}
+
+.history .parag-3 {
+    margin-left: 860px;
+    margin-top: -260px;
+}
+
+.history .parag-4 {
+    margin-top: 40px;
+    margin-left: 860px;
+}
+
+.history img {
+    margin-top: -350px;
+    margin-left: 260px;
+}
+
+/* history end */
+
+/* most */
+.most h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.most {
+    padding: 80px 0 23px 0;
+}
+
+/* most */
+
+/* most-inter */
+.most-inter {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 138px;
+}
+
+/* most-inter */
+
+/* footer */
+.footer {
+    height: 352px;
+    background: #231F20;
+}
+
+.footer img {
+    margin-left: 610px;
+    margin-top: 34px;
+}
+
+.footer .footer-child {
+    display: flex;
+    margin-left: 100px;
+    gap: 35px;
+    padding-top: 20px;
+
+}
+
+.footer .footer-child div {
+    text-align: center;
+}
+
+.footer .footer-child div h3 {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.footer .footer-child div p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.logos-footer {
+    display: flex;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.logos-footer img {
+    margin-left: 23px;
+
+}
+
+/* footer */
